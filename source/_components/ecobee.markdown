@@ -36,6 +36,8 @@ Now login to the regular consumer portal, and in the hamburger menu there will b
 
 Now under the Name and Summary Section you will have an API key. Copy this key and use it in you configuration section below. Click the **X** to close the Developer section. 
 
+Add the `ecobee` section along with the `api_key` key to our `configuration.yaml` file (see below for example).
+
 The first time you run Home Assistant with this component it will give you a PIN code that you need to authorize in the [ecobee consumer portal](https://www.ecobee.com/consumerportal/index.html). You can do this by clicking **Add Application** in the **My Apps** section in the sidebar. 
 
 The PIN can be found from the Home Assistant portal on the Ecobee card or from the **configurator.ecobee** entity in states in the portal. 
